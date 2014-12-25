@@ -68,5 +68,8 @@
             ],
             "type": "shell"
         }
-    ]
+    ],
+    "push": {
+        "name": "skalera/dev"
+    }
 }

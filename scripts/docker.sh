@@ -19,3 +19,4 @@ docker pull progrium/registrator
 docker pull redis
 docker pull nginx
 docker pull postgres
+docker pull skalera/influxdb

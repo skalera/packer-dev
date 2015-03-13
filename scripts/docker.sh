@@ -20,3 +20,7 @@ docker pull redis
 docker pull nginx
 docker pull postgres
 docker pull skalera/influxdb
+
+# add influx command to VM image
+wget -O /usr/bin/influx https://s3-us-west-2.amazonaws.com/skalera/vagrant/influx-0.9.0_rc11
+chmod 755 /usr/bin/influx

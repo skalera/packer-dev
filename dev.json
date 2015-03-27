@@ -63,6 +63,7 @@
                 "scripts/vagrant.sh",
                 "scripts/vmware.sh",
                 "scripts/docker.sh",
+                "scripts/gvm.sh",
                 "scripts/cleanup.sh"
             ],
             "type": "shell"

@@ -15,7 +15,7 @@ usermod --groups docker vagrant
 # pull in images we're going to use later
 
 docker pull progrium/consul
-docker pull progrium/registrator
+docker pull gliderlabs/registrator
 docker pull redis
 docker pull nginx
 docker pull postgres

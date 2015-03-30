@@ -53,6 +53,10 @@
         {
             "output": "skalera-dev.box",
             "type": "vagrant"
+        },
+        {
+            "output": "skalera-dev.ovf",
+            "type": "vagrant-vmware-ovf"
         }
     ],
     "provisioners": [
@@ -62,6 +66,7 @@
                 "scripts/base.sh",
                 "scripts/vagrant.sh",
                 "scripts/vmware.sh",
+                "scripts/rbenv.sh",
                 "scripts/docker.sh",
                 "scripts/gvm.sh",
                 "scripts/cleanup.sh"

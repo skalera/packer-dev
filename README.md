@@ -1,7 +1,2 @@
-# Building the Skalera development VM
+This repo has been merged into https://github.com/skalera/dev
 
-```
-packer build dev.json
-```
-
-The resulting VM is published as the `skalera/dev` vagrant box.
